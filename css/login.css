@@ -1,0 +1,85 @@
+.bg{
+  background-image: url('../images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containerF{
+  position: relative;
+  left: 50%;
+  width: 40%;
+  height: 230px;
+  box-shadow: 4px 4px 5px;
+  margin: 100px 0px;
+}
+ .containerF-signup{
+  display: none;
+ }
+ /*Content form*/
+.containerF .containerF-form {
+  width: 80%;
+  height: inherit;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  background-color: rgba(231, 209, 178, 0.5);  
+
+}
+.containerF .containerF-form div{
+  margin:5px 0px;
+}
+ .containerF .containerF-form .value-in{
+  width: 70%;
+  margin:5px 0px;
+  padding: 15px 0px;
+  border:none;
+  outline: none;
+  background:none;
+  border-bottom: 1px solid #f9f9f9;
+ }
+ .containerF .containerF-login .value-in{
+    margin:15px 0px;
+ }
+/*Submit*/
+input[type="submit"]{
+  background:#3e6eab;
+  color: white;
+  border: 1px solid #3e6eab;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 3px 2px 2px;
+  cursor: pointer;
+  }
+/*change form*/
+ .containerF .change-form{
+  width: 20%;
+  height: inherit;
+  box-sizing:border-box; 
+  word-break: break-all;
+  text-align: center;
+  float :right;
+}
+.change-form div{
+  height: 50%;
+  padding: 30% 1px;
+  box-sizing: border-box;
+}
+.change-form .change label,span{
+    display:block;
+}
+.change-login{
+  background-color:rgba(231, 209, 178, 0.5);
+}
+.change-signup{
+    background: white;
+}
+.change:hover{
+  color:#3e6eab;
+}
+
+@media all and ( max-width: 620px){
+  .containerF{
+    transform: translate(-50%,0%);
+    width: 90%;
+}
+}
