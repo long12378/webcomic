@@ -9,11 +9,11 @@ signup.addEventListener("click",function(){
 	document.getElementById('containerF-signup').style.display="block";
 	document.getElementById('containerF-login').style.display="none";
 	login.style.backgroundColor="white";
-	signup.style.backgroundColor="rgba(231, 209, 178, 0.5)";
+	signup.style.backgroundColor="#add8e6";
 })
 login.addEventListener("click",function(){
 	document.getElementById('containerF-login').style.display="block";
 	document.getElementById('containerF-signup').style.display="none";
-	login.style.backgroundColor="rgba(231, 209, 178, 0.5)";
+	login.style.backgroundColor="#add8e6";
 	signup.style.backgroundColor="white";
 })
