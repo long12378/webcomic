@@ -15,4 +15,4 @@ sau đó push tên tag lên
 sau lần đầu download file, nếu muốn update file nhanh mà không cần download lại anh em chỉ cần gõ:
 	git pull
 
-còn thăng mô chưa dùng github bao giờ thì quên đê :)))
+còn thăng mô chưa dùng github bao giờ thì quên đê :))).....
